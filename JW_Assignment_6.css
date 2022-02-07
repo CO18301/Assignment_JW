@@ -67,7 +67,6 @@ body{
 #main{
     transition: margin-left .5s;
     padding: 20px;
-    background-color:blueviolet;
     height: 100vh;
 }
 @media screen and (max-height: 450px){
