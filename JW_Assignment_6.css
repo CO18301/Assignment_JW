@@ -62,7 +62,7 @@ body{
 #myPic{
     height: 700px;
     margin-left: 450px;
-    margin-top: 125px;
+    margin-top: 75px;
 }
 #main{
     transition: margin-left .5s;
