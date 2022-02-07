@@ -1,0 +1,77 @@
+.sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    transition: 0.5s;
+  }
+#jwLogo{
+    position: absolute;
+    left: 8px;
+    height: 135px;
+    width: 430px;
+    z-index: 1;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    position: absolute;
+    top: 135px;
+}
+li{
+    background-color: #8F00FF;
+    height: 135px;
+    width: 430px;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 135px;
+    font-family: 'Merienda', cursive;
+}
+a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+body{
+    background-color: #f5f5f5;
+}
+.sidebar .closebtn{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    z-index: 2;
+    color: #000;
+}
+.openbtn{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    float: left;
+}
+.openbtn:hover{
+    background-color: #444;
+}
+#myPic{
+    height: 700px;
+    margin-left: 400px;
+    margin-top: 125px;
+}
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+    background-color:blueviolet;
+    height: 100%;
+}
+@media screen and (max-height: 450px){
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
